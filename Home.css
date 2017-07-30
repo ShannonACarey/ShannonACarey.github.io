@@ -1,5 +1,8 @@
 /* This is the CSS Stlye Sheet for the home page of my portfolio */
-body {margin:0;}
+body {
+    margin:0;
+    background-color: grey;
+}
 h1{
     margin: 14px;
 }
