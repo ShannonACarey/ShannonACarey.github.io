@@ -5,9 +5,13 @@ body {
     padding: 15px;
     background-color: grey;
     color: white;
-    text-align: center;
-}
 
+}
+p h1{
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
 
 ul {
     list-style-type: none;
