@@ -3,4 +3,8 @@ body{
   background-color: grey;
   color: white;
   } 
+ul{
+  position: fixed;
+  width: 100%;
+}
   
