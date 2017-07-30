@@ -1,12 +1,15 @@
 /* This is the CSS Stlye Sheet for the home page of my portfolio */
 body {margin:0;}
+h1{
+    margin: 14px;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -24,10 +27,3 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
