@@ -1,24 +1,15 @@
-/* This is the CSS Stlye Sheet for the home page of my portfolio */
 body {
-    margin: auto;
-    width: 100%;
-    padding: 15px;
-    background-color: grey;
+    margin:0;
+    background-color:#333333;
     color: white;
-
 }
-p h1{
-    text-align: center;
-    margin: auto;
-    width: 80%;
-}
-
+/*Start of nav bar */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
+    background-color: #262626;
     position: fixed;
     top: 0;
     width: 100%;
@@ -35,8 +26,14 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover{
-    background-color: black;
+    background-color: #262626
 }
+/*End of nav bar */
 
+div.Content{
+    margin:auto;
+    padding: 55px;
+    text-align: center;
+    
+}
